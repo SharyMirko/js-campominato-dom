@@ -86,4 +86,6 @@ main {
 footer {
     background-color: whitesmoke;
     height: 5rem;
+    padding-left: 5%;
+    line-height: 5; 
 }

@@ -49,10 +49,10 @@ function play(){
                element.innerHTML = `<i class="fa-solid fa-bomb"></i>`;
                eleStampResult.innerHTML = 'hai perso! il tuo punteggio è: ' + clickCounterIndex;
                element.removeEventListener('click', selectCell());
-           } else {
+           } else{
                element.classList.add("clicked");
                clickCounterIndex++
-           }
+           } 
            
        })
    });
