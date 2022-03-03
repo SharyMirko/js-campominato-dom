@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+header {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 5rem;
+}
+/* label {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+select {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.play {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1em;
+} */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #7FFFD4;
+    height: calc(100vh - 10rem);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 520px;
+    height: 520px;
+}
+
+.cell {
+    background-color: transparent;
+    border: 1px solid black;
+    height: calc((100% - 20px) /10);
+    width: calc((100% - 20px) /10);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.insane {
+    height: calc((100% - 14px) /7);
+    width: calc((100% - 14px) /7);
+}
+.hard {
+    height: calc((100% - 74px) /8);
+    width: calc((100% - 74px) /8);
+}
+
+.clicked {
+    background-color: #6495ED;
+}
+
+.lose {
+    background-color: #B12000;
+}
+
+.stamp-result {
+    margin-top: 1rem;
+    font-size: 24px;
+}
+
+footer {
+    background-color: whitesmoke;
+    height: 5rem;
+}
